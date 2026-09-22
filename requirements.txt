@@ -1,0 +1,10 @@
+torch
+transformers>=5.17
+accelerate
+datasets
+peft
+numpy
+safetensors
+tqdm
+matplotlib
+scikit-learn

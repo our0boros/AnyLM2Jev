@@ -1,0 +1,45 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.ruff_cache/
+
+# ---- virtual environments ----
+.venv/
+venv/
+env/
+conda-meta/
+
+# ---- generated artefacts (large; regenerate with the documented commands) ----
+data/
+runs/
+artifacts/
+*.npz
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+logs/
+*.log
+
+# ---- local model / HF caches (never commit weights) ----
+.cache/
+hf_cache/
+models/
+
+# ---- editors / OS ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---- secrets ----
+.env
+*.key
